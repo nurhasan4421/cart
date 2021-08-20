@@ -1,0 +1,52 @@
+*{
+  margin: 2px;
+  padding:0px;
+  
+}
+small {
+  display: block;
+  width: 100%;
+}
+/* store section */
+.shopping-cart {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  border: 0.4em solid gainsboro;
+  padding: 0.5em;
+  background-color: rgba(13, 181, 136, 0.275);
+}
+.store-section {
+  border: 0.4em solid gainsboro;
+  padding: 0.5em;
+  width: 30%;
+  margin:0;
+  background-color: rgba(13, 181, 136, 0.275);
+}
+/* logging and other styles */
+.logger div {
+  color: gray;
+  font-size: 1.2em;
+}
+.form .form-group {
+  display: inline-block;
+}
+.form .form-group p {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: red;
+}
+/* Shopping Cart List */
+.shoppingCartList {
+  padding: 1em;
+  margin: 0;
+}
+/* Code area */
+#code {
+  background-color: gainsboro;
+  padding: 1em;
+  margin: 1em 0;
+  z-index:0;
+}

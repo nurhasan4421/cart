@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript ShoppingCart Application</title>
+  <link rel="stylesheet" href="oop.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+  <body>
+    
+   <body>
+    <!-- store section -->
+    <div class="store-section">
+      <h1> Store:</h1>
+      <form class="form" action="" onsubmit="return false;">
+       <div class="form-group">
+          <input type="text" id="inputItem" class="inputItem" placeholder="name"/>
+        </div>
+        <div class="form-group">
+          <input type="text" id="inputPrice" class="inputPrice" placeholder="price"/>
+        </div>
+        <div class="form-group">
+          <button  class="addItem">Add Item</button>
+        </div>
+      </form>
+      <!--   clearCartCache -->
+      <button class="btn btn-primary" class="clearCache">Clear Messages</button>
+      </div>
+      <small class="logger"></small>
+      <ul class="inventory"></ul>
+    </div>
+
+    <!-- shopping cart -->
+    <div class="shopping-cart">
+      <h1>Shopping Cart</h1>
+      <br/>
+      <h4>Total: $<span id='cartTotal'>0.00</span></h4>
+      <button class="btn btn-primary" class="clearCart">Clear my Cart</button>
+      <h2>Items added:</h2>
+      <ul class="shoppingCartList"></ul>
+    </div>
+  
+    
+    <script type="text/javascript" src="oop.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </body>
+</html>
