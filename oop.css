@@ -1,52 +1,55 @@
-*{
-  margin: 2px;
-  padding:0px;
-  
+body{
+	background: #fff;
 }
-small {
-  display: block;
-  width: 100%;
+.cart{
+	margin: 100px 0;
+	background-color: #F6F5FA;;
+	padding: 60px 0;
 }
-/* store section */
-.shopping-cart {
-  position: absolute;
-  z-index: 2;
-  right: 0;
-  top: 0;
-  border: 0.4em solid gainsboro;
-  padding: 0.5em;
-  background-color: rgba(13, 181, 136, 0.275);
+.total-price{
+	padding-bottom: 15px;
 }
-.store-section {
-  border: 0.4em solid gainsboro;
-  padding: 0.5em;
-  width: 30%;
-  margin:0;
-  background-color: rgba(13, 181, 136, 0.275);
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
 }
-/* logging and other styles */
-.logger div {
-  color: gray;
-  font-size: 1.2em;
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-.form .form-group {
-  display: inline-block;
+.cart-item img{
+	width: 115px;
 }
-.form .form-group p {
-  margin: 0;
-  padding: 0;
-  display: block;
-  color: red;
+.cart-item h5{
+    padding: 0 45px;
 }
-/* Shopping Cart List */
-.shoppingCartList {
-  padding: 1em;
-  margin: 0;
+.cart-item .remove-item{
+	width: 25px!important;
 }
-/* Code area */
-#code {
-  background-color: gainsboro;
-  padding: 1em;
-  margin: 1em 0;
-  z-index:0;
+.btn-default{
+	background-color: #fff;
+}
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
 }
