@@ -18,9 +18,9 @@ function handelbtn(products, price, isIncrease, unit) {
 
 function updateTotal() {
   const phoneQuantity = document.getElementById('phone-quantity');
-  let phoneTotalPrice = parseInt(phoneQuantity.value) * 1219;
+  let phoneTotalPrice = parseInt(phoneQuantity.value) * 1000;
   const caseQuantity = document.getElementById('case-quantity');
-  let caseTotalPrice = parseInt(caseQuantity.value) * 59;
+  let caseTotalPrice = parseInt(caseQuantity.value) * 50;
 
   let subTotal = phoneTotalPrice + caseTotalPrice;
   let tax = subTotal * 15 / 100;
